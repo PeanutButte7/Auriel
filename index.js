@@ -17,16 +17,19 @@ client.on('message', message => {
     }
     if (!message.content.startsWith(prefix) || message.author.bot) return; // Exits if message doesn't start with prefix or is sent by a bot
 
-    const args = message.content.slice(prefix.length).split(/ +/); // Slices the message into an array
-    const command = args.shift().toLowerCase();
+    const arguments = message.content.slice(prefix.length).split(/ +/); // Slices the message into an array
 
-    if (command === 'argumenty') {
-        if (!args.length) {
-            return message.channel.send(`Zpráva nemá žádné argumenty :( ${message.author}!`);
-        }
+    arguments.forEach(argument => {
+        commands.
+    })
 
-        message.channel.send(`Argumenty: ${args}\nPočet argumentů: ${args.length}`);
-    }
+    // if (command === 'argumenty') {
+    //     if (!args.length) {
+    //         return message.channel.send(`Zpráva nemá žádné argumenty :( ${message.author}!`);
+    //     }
+    //
+    //     message.channel.send(`Argumenty: ${args}\nPočet argumentů: ${args.length}`);
+    // }
 });
 
 // login to Discord with your app's token
