@@ -1,0 +1,8 @@
+[
+  {
+    "name": "roll_dice",
+    "triggers": ["hoď kostkou"],
+    "main_responses": ["Padlo číslo", "Kostka se kutálí... a..."],
+    "question_responses": ["jedna", "dva", "tři", "čtyři", "pět", "šest"]
+  }
+]
