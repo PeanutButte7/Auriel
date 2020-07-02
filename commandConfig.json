@@ -2,7 +2,7 @@
   "commands": [
     {
       "name": "areYouHere",
-      "triggers": [["jsi", "si", "jses"], ["tu", "tady", "zde", "tu?", "tady?", "zde?"]],
+      "triggers": [["jsi", "si", "jses","u"], ["tu", "tady", "zde", "here", "tu?", "tady?", "zde?","here?"]],
       "template_responses": ["Jasně, že jsem tady...", "Jasně, že jo,","Co myslíš...", "Hádej...", "Si piš,"],
       "question_responses": ["co jiného bych asi dělala...", "kde jinde bych asi byla...", "vypadá to snad, že mám něco lepšího na práci?"]
     },
