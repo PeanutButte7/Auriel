@@ -1,0 +1,22 @@
+{
+  "commands": [
+    {
+      "name": "areYouHere",
+      "triggers": [["jsi", "si", "jses"], ["tu", "tady", "zde", "tu?", "tady?", "zde?"]],
+      "template_responses": ["Jasně, že jsem tady...", "Jasně, že jo,","Co myslíš...", "Hádej...", "Si piš,"],
+      "question_responses": ["co jiného bych asi dělala...", "kde jinde bych asi byla...", "vypadá to snad, že mám něco lepšího na práci?"]
+    },
+    {
+      "name": "rollDice",
+      "triggers": ["hod", "kostkou"],
+      "template_responses": ["Padlo číslo", "Kostka se kutálí... a..."],
+      "question_responses": ["jedna", "dva", "tři", "čtyři", "pět", "šest"]
+    },
+    {
+      "name": "flipCoin",
+      "triggers": ["hod", "minci", "svoji"],
+      "template_responses": ["Padlo číslo", "Kostka se kutálí... a..."],
+      "question_responses": ["jedna", "dva", "tři", "čtyři", "pět", "šest"]
+    }
+  ]
+}

@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb5c961-b5c1-4acb-8bdd-940a06047d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commands/SimpleCommands" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commandConfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/areYouHere.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/ping.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/SimpleCommands" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +37,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RunManager">
     <configuration name="Run Bot" type="NodeJSConfigurationType" node-parameters="index.js" working-dir="$PROJECT_DIR$">
@@ -62,6 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1593640696325</updated>
       <workItem from="1593640697683" duration="5725000" />
+      <workItem from="1593685641359" duration="9829000" />
+      <workItem from="1593703648970" duration="1986000" />
     </task>
     <servers />
   </component>
@@ -69,29 +88,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="873" y="359" key="#Inspections" timestamp="1593690645253">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="359" key="#Inspections/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593690645253" />
     <state x="736" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593642812999">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="736" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593642812999" />
-    <state x="1018" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593645064553">
+    <state x="1018" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593693752025">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1018" y="503" key="#com.intellij.fileTypes.FileTypeChooser/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593645064553" />
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1593646427237">
+    <state x="1018" y="503" key="#com.intellij.fileTypes.FileTypeChooser/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593693752025" />
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1593705091573">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593646427237" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1593646427237">
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593705091573" />
+    <state width="2539" height="400" key="GridCell.Tab.0.center" timestamp="1593705091573">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.center/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593646427237" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1593646427237">
+    <state width="2539" height="400" key="GridCell.Tab.0.center/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593705091573" />
+    <state width="2539" height="400" key="GridCell.Tab.0.left" timestamp="1593705091573">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.left/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593646427237" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1593646427237">
+    <state width="2539" height="400" key="GridCell.Tab.0.left/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593705091573" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right" timestamp="1593705091573">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.right/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593646427237" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593705091573" />
+    <state x="782" y="343" key="SettingsEditor" timestamp="1593688283445">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="782" y="343" key="SettingsEditor/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593688283445" />
   </component>
 </project>
