@@ -1,22 +1,76 @@
 {
   "commands": [
     {
+      "name": "whatCanYouDo",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["co", ["umíš", "dokážeš", "zvládneš", "umíš?", "dokážeš?", "zvládneš?"]],
+      "complete_responses": ["Hmm... dobrá otázka... abych ti vůbec mohla odpovědět tak vždy **musíš začít větu mým jménem**.. tedy Auriel. Potom už jen stačí říct co bys ode mě potřeboval/a a když budu mít dobrou náladu tak ti možná odpovím.\n\n**Jsem samozřejmě umělá inteligence takže umím vnímat i různé variace vět**, abys nemusel/a příkaz zadávat přesně. Jsem ale občas líná, takže zas nereaguju na všechno. *Kdybych se chovala divně, tak můžeš zkusit pingnout Bárťase a třeba ti pomůže.. ale co jsem slyšela, tak na něj taky není moc spoleh.*\n\nTady je všechno co umím:\n**Auriel jsi tady?** - řeknu ti jestli jsem tady.. a neotravuj s tím moc často\n*Taky můžeš použít výrazy jako \"jseš zde, si tu?, u here?\"*\n**Auriel hoď kostkou** - hodím pro tebe šesti-stranou kostkou\n**Auriel hoď mincí** - hodím ti mincí\n**Auriel kolik bodů bys dala \"vlož_věc\"** - když jinak nedáš tak ohodnotím dannou věc na škále 0-10"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
       "name": "areYouHere",
-      "triggers": [["jsi", "si", "jses","u"], ["tu", "tady", "zde", "here", "tu?", "tady?", "zde?","here?"]],
+      "type": "simpleQuestion",
+      "complete_response_probability": 0.3,
+      "triggers": [["jsi", "si", "jses","u", "you"], ["tu", "tady", "zde", "here", "tu?", "tady?", "zde?","here?"]],
+      "complete_responses": ["Zrovna jsem dorazila z útesu", "Nech mě dneska být, ještě jsem neměla kafe"],
       "template_responses": ["Jasně, že jsem tady...", "Jasně, že jo,","Co myslíš...", "Hádej...", "Si piš,"],
       "question_responses": ["co jiného bych asi dělala...", "kde jinde bych asi byla...", "vypadá to snad, že mám něco lepšího na práci?"]
     },
     {
       "name": "rollDice",
-      "triggers": ["hod", "kostkou"],
-      "template_responses": ["Padlo číslo", "Kostka se kutálí... a..."],
-      "question_responses": ["jedna", "dva", "tři", "čtyři", "pět", "šest"]
+      "type": "simpleQuestion",
+      "complete_response_probability": 0.05,
+      "triggers": ["hod", ["kostkou", "kostku"]],
+      "complete_responses": ["Ani náhodou, nejsem žádný tvůj otrok", "Promiň, ale musela se mi ztratit, když jsme proskakovali tím portálem... a... tady je! Už jsem ji našla!"],
+      "template_responses": ["Házím... a... padla", "Kostka se kutálí... a..."],
+      "question_responses": ["jednička!", "dvojka!", "trojka!", "čtyřka!", "pětka!", "šestka!"]
     },
     {
       "name": "flipCoin",
-      "triggers": ["hod", "minci", "svoji"],
-      "template_responses": ["Padlo číslo", "Kostka se kutálí... a..."],
-      "question_responses": ["jedna", "dva", "tři", "čtyři", "pět", "šest"]
+      "type": "simpleQuestion",
+      "complete_response_probability": 0.05,
+      "triggers": ["hod", "minci"],
+      "complete_responses": ["Házím... a... ale ne! Ta obrovská kytka mi ji sežrala!"],
+      "template_responses": ["Házím... a..."],
+      "question_responses": ["orel!", "pana!"]
+    },
+    {
+      "name": "goodJobAuriel",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": [["dobrá", "good", "great"], ["práce", "job"]],
+      "complete_responses": ["Díky! :heart:", "Díky :) Dneska mám dobrý den :thumbsup:", "Nevím, čím jsem si to zasloužila, ale díky :heart:"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "goodMorning",
+      "type": "replyQuestion",
+      "complete_response_probability": 0,
+      "triggers": [["dobré", "good"], ["ráno", "morning"]],
+      "complete_responses": [],
+      "template_responses": ["<:fluppyWave:728349207110352906>", "<:geluWave:728349260067635271>", "<:geluWavePlus:728349230632271873>", ":wave:"],
+      "question_responses": ["Dobré ráno", "Jaká byla noc?", "Good morning", "Morning", "To už je zas ráno? Spalo se dobře?"]
+    },
+    {
+      "name": "goodNight",
+      "type": "replyQuestion",
+      "complete_response_probability": 0,
+      "triggers": [["dobrou", "good"], ["noc", "night"]],
+      "complete_responses": [],
+      "template_responses": ["<:fluppyWave:728349207110352906>", "<:geluWave:728349260067635271>", "<:geluWavePlus:728349230632271873>", ":wave:"],
+      "question_responses": ["Dobrou noc", "Hezké sny", "Dobrou"]
+    },
+    {
+      "name": "rate",
+      "type": "custom",
+      "complete_response_probability": 0.05,
+      "triggers": ["kolik", "bodů","bys", ["udělila","přidělila", "dala"]],
+      "complete_responses": ["si nejsem jistá", "upřímně netuším"],
+      "template_responses": ["bych dala", "bych přidělila známku", "dávám", "za tým Indiana uděluji známku"],
+      "question_responses": []
     }
   ]
 }
