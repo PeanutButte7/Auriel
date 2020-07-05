@@ -5,7 +5,7 @@
       "type": "simpleQuestion",
       "complete_response_probability": 1,
       "triggers": ["co", ["umíš", "dokážeš", "zvládneš", "umíš?", "dokážeš?", "zvládneš?"]],
-      "complete_responses": ["Hmm... dobrá otázka... abych ti vůbec mohla odpovědět tak vždy **musíš začít větu mým jménem**.. tedy Auriel. Potom už jen stačí říct co bys ode mě potřeboval/a a když budu mít dobrou náladu tak ti možná odpovím.\n\n**Jsem samozřejmě umělá inteligence takže umím vnímat i různé variace vět**, abys nemusel/a příkaz zadávat přesně. Jsem ale občas líná, takže zas nereaguju na všechno. *Kdybych se chovala divně, tak můžeš zkusit pingnout Bárťase a třeba ti pomůže.. ale co jsem slyšela, tak na něj taky není moc spoleh.*\n\nTady je všechno co umím:\n**Auriel jsi tady?** - řeknu ti jestli jsem tady.. a neotravuj s tím moc často\n*Taky můžeš použít výrazy jako \"jseš zde, si tu?, u here?\"*\n**Auriel hoď kostkou** - hodím pro tebe šesti-stranou kostkou\n**Auriel hoď mincí** - hodím ti mincí\n**Auriel kolik bodů bys dala \"vlož_věc\"** - když jinak nedáš tak ohodnotím dannou věc na škále 0-10"],
+      "complete_responses": ["Hmm... dobrá otázka... abych ti vůbec mohla odpovědět tak vždy **začít větu mým jménem nebo mě v ní tagnout**. Potom už jen stačí říct co bys ode mě potřeboval/a a když budu mít dobrou náladu tak ti možná odpovím.\n\n**Jsem samozřejmě umělá inteligence takže umím vnímat i různé variace vět**, abys nemusel/a příkaz zadávat přesně. Jsem ale občas líná, takže zas nereaguju na všechno. *Kdybych se chovala divně, tak můžeš zkusit pingnout Bárťase a třeba ti pomůže.. ale co jsem slyšela, tak na něj taky není moc spoleh.*\n\nTady je všechno co umím:\n**Auriel jsi tady?** - řeknu ti jestli jsem tady.. a neotravuj s tím moc často\n*Taky můžeš použít výrazy jako \"jseš zde, si tu?, u here?\"*\n**Auriel hoď kostkou** - hodím pro tebe šesti-stranou kostkou\n**Auriel hoď mincí** - hodím ti mincí\n**Auriel kolik bodů bys dala \"vlož_věc\"** - když jinak nedáš tak ohodnotím dannou věc na škále 0-10"],
       "template_responses": [],
       "question_responses": []
     },
@@ -37,6 +37,15 @@
       "question_responses": ["orel!", "pana!"]
     },
     {
+      "name": "howAreYouDoing",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["jak", "se", ["vede", "máš"]],
+      "complete_responses": ["Ale jo... jde to", "Dobře :thumbsup:", "Dneska nic moc :/", "Dneska suprově :)"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
       "name": "goodJobAuriel",
       "type": "simpleQuestion",
       "complete_response_probability": 1,
@@ -64,12 +73,30 @@
       "question_responses": ["Dobrou noc", "Hezké sny", "Dobrou"]
     },
     {
+      "name": "hello",
+      "type": "replyQuestion",
+      "complete_response_probability": 0,
+      "triggers": [["hello", "ahoj", "čau", "nazdar", "čaues"]],
+      "complete_responses": [],
+      "template_responses": ["<:fluppyWave:728349207110352906>", "<:geluWave:728349260067635271>", "<:geluWavePlus:728349230632271873>", ":wave:"],
+      "question_responses": ["Ahoj", "Hello"]
+    },
+    {
       "name": "rate",
       "type": "custom",
       "complete_response_probability": 0.05,
-      "triggers": ["kolik", "bodů","bys", ["udělila","přidělila", "dala"]],
+      "triggers": ["kolik","bys", ["udělila","přidělila", "dala"]],
       "complete_responses": ["si nejsem jistá", "upřímně netuším"],
       "template_responses": ["bych dala", "bych přidělila známku", "dávám", "za tým Indiana uděluji známku"],
+      "question_responses": []
+    },
+    {
+      "name": "rate",
+      "type": "custom",
+      "complete_response_probability": 0.05,
+      "triggers": [["oznámkuj","ohodnoť"]],
+      "complete_responses": ["si nejsem jistá", "upřímně netuším"],
+      "template_responses": ["můžu ohodnotit", "můžu oznámkovat"],
       "question_responses": []
     }
   ]

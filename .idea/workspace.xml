@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb5c961-b5c1-4acb-8bdd-940a06047d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/adam.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commands/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commands/replyQuestion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commands/simpleQuestion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commandConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/commandConfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/areYouHere.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/rate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +20,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -51,18 +45,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -76,6 +58,8 @@
       <workItem from="1593640697683" duration="5725000" />
       <workItem from="1593685641359" duration="9829000" />
       <workItem from="1593703648970" duration="19140000" />
+      <workItem from="1593785694255" duration="4953000" />
+      <workItem from="1593962842265" duration="818000" />
     </task>
     <task id="LOCAL-00001" summary="Added command system">
       <created>1593705676941</created>
@@ -95,7 +79,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added command system" />
@@ -119,22 +103,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="905" y="295" key="CommitChangelistDialog2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593706475279" />
-    <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1593725691705">
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1593806544199">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.bottom/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593725691705" />
-    <state width="2539" height="400" key="GridCell.Tab.0.center" timestamp="1593725691705">
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593806544199" />
+    <state width="2539" height="400" key="GridCell.Tab.0.center" timestamp="1593806544199">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.center/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593725691705" />
-    <state width="2539" height="400" key="GridCell.Tab.0.left" timestamp="1593725691704">
+    <state width="2539" height="400" key="GridCell.Tab.0.center/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593806544199" />
+    <state width="2539" height="400" key="GridCell.Tab.0.left" timestamp="1593806544198">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.left/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593725691704" />
-    <state width="2539" height="400" key="GridCell.Tab.0.right" timestamp="1593725691705">
+    <state width="2539" height="400" key="GridCell.Tab.0.left/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593806544198" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right" timestamp="1593806544199">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.right/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593725691705" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593806544199" />
     <state x="782" y="343" key="SettingsEditor" timestamp="1593688283445">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -143,5 +127,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="873" y="433" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593706479543" />
+    <state x="937" y="331" key="run.anything.popup" timestamp="1593788954353">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="937" y="331" key="run.anything.popup/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593788954353" />
   </component>
 </project>
