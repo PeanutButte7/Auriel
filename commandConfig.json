@@ -86,8 +86,8 @@
       "type": "custom",
       "complete_response_probability": 0.05,
       "triggers": ["kolik","bys", ["udělila","přidělila", "dala"]],
-      "complete_responses": ["si nejsem jistá", "upřímně netuším"],
-      "template_responses": ["bych dala", "bych přidělila známku", "dávám", "za tým Indiana uděluji známku"],
+      "complete_responses": ["Teď si teda nejsem jistá", "U tohoto upřímně netuším"],
+      "template_responses": ["Tomu bych dala", "Tomuhle bych přidělila známku", "Tomu dávám", "Tomuto za tým Indiana uděluji známku", "Toto můžu ohodnotit", "Tohle můžu oznámkovat"],
       "question_responses": []
     },
     {
@@ -95,8 +95,8 @@
       "type": "custom",
       "complete_response_probability": 0.05,
       "triggers": [["oznámkuj","ohodnoť"]],
-      "complete_responses": ["si nejsem jistá", "upřímně netuším"],
-      "template_responses": ["můžu ohodnotit", "můžu oznámkovat"],
+      "complete_responses": ["Teď si teda nejsem jistá", "U tohoto upřímně netuším"],
+      "template_responses": ["Tomu bych dala", "Tomuhle bych přidělila známku", "Tomu dávám", "Tomuto za tým Indiana uděluji známku", "Toto můžu ohodnotit", "Tohle můžu oznámkovat"],
       "question_responses": []
     }
   ]

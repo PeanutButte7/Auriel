@@ -28,7 +28,22 @@ client.on("message", message => {
 	if (message.channel.id !== testing_channel_id && !in_production) return; // Exits if message isn't sent in testing channel and bot is in testing mode
 	if (message.channel.id === testing_channel_id && in_production) return; // Exits if message is sent in testing channel and bot is in production mode
 	if (message.author.bot) return; // Exits if message is sent by a bot
-	if (!message.content.startsWith("Auriel") && (message.mentions.users.size && message.mentions.users.first().id !== "728002398370529469")) return; // Exits if message doesn't start with prefix or mentions Auriel
+
+	// Checks if Auriel is mentioned or is tagged
+	let wasAurielMentioned = false;
+
+	if (message.content.startsWith("Auriel")) { // Checks if message starts with Auriel or someone is mentioned
+		wasAurielMentioned = true;
+	} else if (message.mentions.users.size) { // If there are mentions check if Auriel is mentioned
+		message.mentions.users.forEach(user => {
+			console.log(user.id)
+			if (user.id === "728002398370529469"){
+				wasAurielMentioned = true;
+			}
+		});
+	}
+
+	if (!wasAurielMentioned) return;
 
 	// Bot response
 	const commandInfo = checkForCommand(message); // gets command info from the message

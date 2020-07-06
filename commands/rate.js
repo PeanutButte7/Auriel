@@ -13,11 +13,14 @@ module.exports = {
 			response = "To jako chceš abych hodnotila sebe? No ty ses asi úplně zbláznil ne?";
 		} else if (ratedItem === "`undefined`") {
 			response = "Počkej!... to vypadá jako kdyby ses mě snad snažil rozbít! Tohle teda hodnotit nebudu"
-		}
-		else if (randomBoolean) {
-			response = `U ${ratedItem} ${sample(localCommandConfig.complete_responses)}`;
+		} else if (ratedItem === "<@!238365367062233089>") {
+			response = "Bárťas je absolutně nejlepší, tady ani není co hodnotit"
+		} else if (ratedItem.localeCompare("blackhole", "cz", { sensitivity: "base" }) === 0) {
+			response = `${sample(localCommandConfig.template_responses)} 10/10`
+		} else if (randomBoolean) {
+			response = `${sample(localCommandConfig.complete_responses)}`;
 		} else {
-			response = `${ratedItem} ${sample(localCommandConfig.template_responses)} ${Math.floor(Math.random() * 11)}/10`;
+			response = `${sample(localCommandConfig.template_responses)} ${Math.floor(Math.random() * 11)}/10`;
 		}
 
 		message.channel.send(response);
