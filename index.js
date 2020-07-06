@@ -1,6 +1,6 @@
 const fs = require("fs");
 const Discord = require("discord.js");
-const { token, prefix } = require("./config.json");
+const { token } = require("./config.json");
 const commandConfig = require("./commandConfig.json");
 
 // create a new Discord client
@@ -25,7 +25,7 @@ client.once("ready", () => {
 // Runs when someone sends a message
 client.on("message", message => {
 	if (message.author.bot) return; // Exits if message is sent by a bot
-	if (!message.content.startsWith(prefix) && (message.mentions.users.size && message.mentions.users.first().id !== "728002398370529469")) return; // Exits if message doesn't start with prefix or mentions Auriel
+	if (!message.content.startsWith("Auriel") && (message.mentions.users.size && message.mentions.users.first().id !== "728002398370529469")) return; // Exits if message doesn't start with prefix or mentions Auriel
 
 	const commandInfo = checkForCommand(message); // gets command info from the message
 	executeCommand(commandInfo, message);
