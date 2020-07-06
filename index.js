@@ -24,7 +24,7 @@ client.once("ready", () => {
 
 // Runs when someone sends a message
 client.on("message", message => {
-	if (message.channel.id !== testing_channel_id && in_production) return; // Exits if message isn't sent in testing channel and bot is in testing mode
+	if (message.channel.id !== testing_channel_id && !in_production) return; // Exits if message isn't sent in testing channel and bot is in testing mode
 	if (message.author.bot) return; // Exits if message is sent by a bot
 	if (!message.content.startsWith("Auriel") && (message.mentions.users.size && message.mentions.users.first().id !== "728002398370529469")) return; // Exits if message doesn't start with prefix or mentions Auriel
 
