@@ -13,7 +13,7 @@
       "name": "areYouHere",
       "type": "simpleQuestion",
       "complete_response_probability": 0.3,
-      "triggers": [["jsi", "si", "jses","u", "you"], ["tu", "tady", "zde", "here", "tu?", "tady?", "zde?","here?"]],
+      "triggers": [["jsi", "si", "jses","u", "you", "jů"], ["tu", "tady", "zde", "hír", "here", "tu?", "tady?", "zde?","here?", "hír?"]],
       "complete_responses": ["Zrovna jsem dorazila z útesu", "Nech mě dneska být, ještě jsem neměla kafe"],
       "template_responses": ["Jasně, že jsem tady...", "Jasně, že jo,","Co myslíš...", "Hádej...", "Si piš,"],
       "question_responses": ["co jiného bych asi dělala...", "kde jinde bych asi byla...", "vypadá to snad, že mám něco lepšího na práci?"]
@@ -55,6 +55,24 @@
       "question_responses": []
     },
     {
+      "name": "popcorn",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["dáš", "si", ["popcorn","popcorn?"]],
+      "complete_responses": ["Jasně že jo!", "Dneska asi nemám chuť hele", "Ok, ale jenom jestli se někdo hádá :popcorn:"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "metro",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["metro", "v", "brně"],
+      "complete_responses": ["... není\nheh :D"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
       "name": "goodMorning",
       "type": "replyQuestion",
       "complete_response_probability": 0,
@@ -80,6 +98,15 @@
       "complete_responses": [],
       "template_responses": ["<:fluppyWave:728349207110352906>", "<:geluWave:728349260067635271>", "<:geluWavePlus:728349230632271873>", ":wave:"],
       "question_responses": ["Ahoj", "Hello"]
+    },
+    {
+      "name": "helloThere",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["hello", "there"],
+      "complete_responses": ["General Kenobi! You are a bold one"],
+      "template_responses": [],
+      "question_responses": []
     },
     {
       "name": "rate",

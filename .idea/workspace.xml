@@ -22,7 +22,6 @@
     <list default="true" id="2eb5c961-b5c1-4acb-8bdd-940a06047d06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commandConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/commandConfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/rate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,7 @@
       <workItem from="1593703648970" duration="19140000" />
       <workItem from="1593785694255" duration="4953000" />
       <workItem from="1593962842265" duration="2981000" />
-      <workItem from="1594040863767" duration="8165000" />
+      <workItem from="1594040863767" duration="10256000" />
     </task>
     <task id="LOCAL-00001" summary="Added command system">
       <created>1593705676941</created>
@@ -150,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594046410759</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed responses for messages and changed rating responses">
+      <created>1594049256944</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594049256944</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +184,8 @@
     <MESSAGE value="Testing setting fix" />
     <MESSAGE value="Another testing setting fix" />
     <MESSAGE value="More testing features" />
-    <option name="LAST_COMMIT_MESSAGE" value="More testing features" />
+    <MESSAGE value="Fixed responses for messages and changed rating responses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed responses for messages and changed rating responses" />
   </component>
   <component name="WindowStateProjectService">
     <state x="873" y="359" key="#Inspections" timestamp="1593690645253">
@@ -193,26 +200,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1018" y="503" key="#com.intellij.fileTypes.FileTypeChooser/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593709046623" />
-    <state x="905" y="295" key="CommitChangelistDialog2" timestamp="1594046409641">
+    <state x="905" y="295" key="CommitChangelistDialog2" timestamp="1594052316851">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="905" y="295" key="CommitChangelistDialog2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594046409641" />
-    <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1594049123391">
+    <state x="905" y="295" key="CommitChangelistDialog2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594052316851" />
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1594052317832">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.bottom/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594049123391" />
-    <state width="2539" height="400" key="GridCell.Tab.0.center" timestamp="1594049123390">
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594052317832" />
+    <state width="2539" height="400" key="GridCell.Tab.0.center" timestamp="1594052317831">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.center/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594049123390" />
-    <state width="2539" height="400" key="GridCell.Tab.0.left" timestamp="1594049123390">
+    <state width="2539" height="400" key="GridCell.Tab.0.center/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594052317831" />
+    <state width="2539" height="400" key="GridCell.Tab.0.left" timestamp="1594052317831">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.left/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594049123390" />
-    <state width="2539" height="400" key="GridCell.Tab.0.right" timestamp="1594049123391">
+    <state width="2539" height="400" key="GridCell.Tab.0.left/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594052317831" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right" timestamp="1594052317831">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.right/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594049123391" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594052317831" />
     <state x="782" y="343" key="SettingsEditor" timestamp="1593688283445">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

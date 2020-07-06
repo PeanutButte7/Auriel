@@ -51,7 +51,9 @@ client.on("message", message => {
 });
 
 function executeCommand(commandInfo, message) {
-	if (commandInfo.name == null) return; // Returns if there is was no command found in the message
+	if (commandInfo.name == null) {
+		message.channel.send("Ty jseš taky nějakej chytrej ne? Jak mám asi vědět co tohle znamená? Jsem umělá inteligence.. ne génius")
+	} // Returns if there is was no command found in the message
 	if (!client.commands.has(commandInfo.name)) return; // Returns if command name doesn't exist as a file under ./commands
 
 	// Tries to execute the files execute function in ./commands
