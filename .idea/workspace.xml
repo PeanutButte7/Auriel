@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eb5c961-b5c1-4acb-8bdd-940a06047d06" name="Default Changelist" comment="Testing setting fix">
+    <list default="true" id="2eb5c961-b5c1-4acb-8bdd-940a06047d06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
@@ -90,7 +90,7 @@
       <workItem from="1593703648970" duration="19140000" />
       <workItem from="1593785694255" duration="4953000" />
       <workItem from="1593962842265" duration="2981000" />
-      <workItem from="1594040863767" duration="5106000" />
+      <workItem from="1594040863767" duration="5444000" />
     </task>
     <task id="LOCAL-00001" summary="Added command system">
       <created>1593705676941</created>
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594045609270</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Another testing setting fix">
+      <created>1594046095055</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594046095055</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +167,8 @@
     <MESSAGE value="Added config.json to gitignore" />
     <MESSAGE value="Added testing setting and updated README" />
     <MESSAGE value="Testing setting fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing setting fix" />
+    <MESSAGE value="Another testing setting fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another testing setting fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="873" y="359" key="#Inspections" timestamp="1593690645253">
@@ -175,10 +183,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1018" y="503" key="#com.intellij.fileTypes.FileTypeChooser/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593709046623" />
-    <state x="905" y="295" key="CommitChangelistDialog2" timestamp="1594046003636">
+    <state x="905" y="295" key="CommitChangelistDialog2" timestamp="1594046094117">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="905" y="295" key="CommitChangelistDialog2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594046003636" />
+    <state x="905" y="295" key="CommitChangelistDialog2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594046094117" />
     <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1594046058558">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -199,10 +207,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="782" y="343" key="SettingsEditor/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593688283445" />
-    <state x="873" y="433" key="Vcs.Push.Dialog.v2" timestamp="1594045614059">
+    <state x="873" y="433" key="Vcs.Push.Dialog.v2" timestamp="1594046097204">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="433" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594045614059" />
+    <state x="873" y="433" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594046097204" />
     <state x="1090" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594045595305">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
