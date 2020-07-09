@@ -36,7 +36,6 @@ client.on("message", message => {
 		wasAurielMentioned = true;
 	} else if (message.mentions.users.size) { // If there are mentions check if Auriel is mentioned
 		message.mentions.users.forEach(user => {
-			console.log(user.id)
 			if (user.id === "728002398370529469"){
 				wasAurielMentioned = true;
 			}

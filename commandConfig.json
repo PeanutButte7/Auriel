@@ -6,7 +6,7 @@
       "complete_response_probability": 0,
       "triggers": [["kafe", "kávu", "kafe?", "kávu?"]],
       "complete_responses": [],
-      "template_responses": ["Doporučuju", "Osobně mám chu%t na", "Skvělá volba je", "Rozhodně tě nezklame", "Navrhuju"],
+      "template_responses": ["Doporučuju", "Osobně mám chuť na", "Skvělá volba je", "Rozhodně tě nezklame", "Navrhuju"],
       "question_responses": ["Vanilkové Double Espresso", "Filtrované Ristretto", "Ledové Double Espresso", "Karamelové Americano", "Tropické Cappuccino", "Karamelové Caffé latte", "Ledové Latte macchiato", "Filtrované Caffé latte", "Ledové Caffé latte", "Tropické Latte macchiato", "Filtrované Cappuccino", "Karamelové Flat White", "Vanilkové Caffé latte", "Tropické Americano", "Vanilkové Latte macchiato", "Tropické Caffé latte"]
     },
     {
@@ -185,6 +185,15 @@
       "type": "custom",
       "complete_response_probability": 0.05,
       "triggers": [["oznámkuj","ohodnoť"]],
+      "complete_responses": ["Teď si teda nejsem jistá", "U tohoto upřímně netuším"],
+      "template_responses": ["Tomu bych dala", "Tomuhle bych přidělila známku", "Tomu dávám", "Tomuto za tým Indiana uděluji známku", "Toto můžu ohodnotit", "Tohle můžu oznámkovat"],
+      "question_responses": []
+    },
+    {
+      "name": "findPerson",
+      "type": "custom",
+      "complete_response_probability": 1,
+      "triggers": ["najdi"],
       "complete_responses": ["Teď si teda nejsem jistá", "U tohoto upřímně netuším"],
       "template_responses": ["Tomu bych dala", "Tomuhle bych přidělila známku", "Tomu dávám", "Tomuto za tým Indiana uděluji známku", "Toto můžu ohodnotit", "Tohle můžu oznámkovat"],
       "question_responses": []
