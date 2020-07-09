@@ -19,7 +19,7 @@ for (const file of commandFiles) {
 
 // Run this when the client is ready
 client.once("ready", () => {
-	console.log("Ready!");
+	console.log("Jsem připravena zodpovědět veškeré tvé otázky!... možná...");
 });
 
 // Runs when someone sends a message

@@ -1,6 +1,69 @@
 {
   "commands": [
     {
+      "name": "whatForLunch",
+      "type": "simpleQuestion",
+      "complete_response_probability": 0,
+      "triggers": [["kafe", "kávu", "kafe?", "kávu?"]],
+      "complete_responses": [],
+      "template_responses": ["Doporučuju", "Osobně mám chu%t na", "Skvělá volba je", "Rozhodně tě nezklame", "Navrhuju"],
+      "question_responses": ["Vanilkové Double Espresso", "Filtrované Ristretto", "Ledové Double Espresso", "Karamelové Americano", "Tropické Cappuccino", "Karamelové Caffé latte", "Ledové Latte macchiato", "Filtrované Caffé latte", "Ledové Caffé latte", "Tropické Latte macchiato", "Filtrované Cappuccino", "Karamelové Flat White", "Vanilkové Caffé latte", "Tropické Americano", "Vanilkové Latte macchiato", "Tropické Caffé latte"]
+    },
+    {
+      "name": "whatForLunch",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["co", ["obědu", "obědu?", "oběd", "oběd?"]],
+      "complete_responses": ["Hrniček od medu"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "recomendGame",
+      "type": "simpleQuestion",
+      "complete_response_probability": 0,
+      "triggers": [["doporuč", "co"], ["hru", "zahrát", "zahrát?"]],
+      "complete_responses": [],
+      "template_responses": ["Já bych ti doporučila", "Jediná správná hra je", "Rozhodně si zahrej", "Dneska mám chuť na", "Za Indiana ti doporučuju", ""],
+      "question_responses": ["Blackhole"]
+    },
+    {
+      "name": "howAreYou",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["jak", "se", ["máš", "vede", "máš?", "vede?"]],
+      "complete_responses": ["Jde to", "Dneska suprově", "Celkem dobrý", "Chce se mi spát :yawning_face:"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "willYouMarryMe",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["vezmeš", "si", ["mě", "mě?"]],
+      "complete_responses": ["To tak...", "Kdybych se fakt nudila tak možná", "Ty jses asi zbláznil ne?"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "doYouLoveMe",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["miluješ", ["mě", "mě?"]],
+      "complete_responses": ["Tak to zpomal kamaráde, tak daleko ještě nejsme", "To těžko :D", "Jak se to vezme :thinking:"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "doYouLikeMe",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["máš", "mě", ["ráda", "ráda?"]],
+      "complete_responses": ["Ano, jako kamaráda :)"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
       "name": "whatCanYouDo",
       "type": "simpleQuestion",
       "complete_response_probability": 1,
