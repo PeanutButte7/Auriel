@@ -26,10 +26,17 @@ module.exports = {
 		}
 
 		getData(`https://indian-tv.cz/auriel-api/discord/${discordId}`).then(data => {
-			console.log(data.user);
 			const user = data.user;
+			let cardColor = "#fcfffa";
+
+			user.badge.forEach(item => {
+				if (item === "indian"){
+					cardColor = "#ff0000";
+				}
+			});
+
 			const exampleEmbed = new Discord.MessageEmbed()
-				.setColor("#0099ff")
+				.setColor(cardColor)
 				.setTitle(user.displayname)
 				.setURL(user.profile)
 				.setDescription(user.about)
