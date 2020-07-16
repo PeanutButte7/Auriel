@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eb5c961-b5c1-4acb-8bdd-940a06047d06" name="Default Changelist" comment="Updated node version, updated gitignore, added findPerson command">
+    <list default="true" id="2eb5c961-b5c1-4acb-8bdd-940a06047d06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/findPerson.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/findPerson.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,8 @@
       <workItem from="1594040863767" duration="10515000" />
       <workItem from="1594065347715" duration="754000" />
       <workItem from="1594234032359" duration="247000" />
-      <workItem from="1594291551700" duration="12434000" />
+      <workItem from="1594291551700" duration="13803000" />
+      <workItem from="1594390298399" duration="850000" />
     </task>
     <task id="LOCAL-00001" summary="Added command system">
       <created>1593705676941</created>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594313467950</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated cards color to reflect badges">
+      <created>1594315663266</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594315663266</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +218,8 @@
     <MESSAGE value="Added new commands and fixed responses when Auriel gets tagged" />
     <MESSAGE value="Added new commands" />
     <MESSAGE value="Updated node version, updated gitignore, added findPerson command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated node version, updated gitignore, added findPerson command" />
+    <MESSAGE value="Updated cards color to reflect badges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated cards color to reflect badges" />
   </component>
   <component name="WindowStateProjectService">
     <state x="873" y="359" key="#ESLint" timestamp="1594308209162">
@@ -230,26 +238,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1018" y="503" key="#com.intellij.fileTypes.FileTypeChooser/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593709046623" />
-    <state x="905" y="295" key="CommitChangelistDialog2" timestamp="1594315631712">
+    <state x="905" y="295" key="CommitChangelistDialog2" timestamp="1594315662178">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="905" y="295" key="CommitChangelistDialog2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594315631712" />
-    <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1594315525020">
+    <state x="905" y="295" key="CommitChangelistDialog2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594315662178" />
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1594341235395">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.bottom/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594315525020" />
-    <state width="2539" height="400" key="GridCell.Tab.0.center" timestamp="1594315525020">
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594341235395" />
+    <state width="2539" height="400" key="GridCell.Tab.0.center" timestamp="1594341235395">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.center/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594315525020" />
-    <state width="2539" height="400" key="GridCell.Tab.0.left" timestamp="1594315525020">
+    <state width="2539" height="400" key="GridCell.Tab.0.center/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594341235395" />
+    <state width="2539" height="400" key="GridCell.Tab.0.left" timestamp="1594341235394">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.left/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594315525020" />
-    <state width="2539" height="400" key="GridCell.Tab.0.right" timestamp="1594315525020">
+    <state width="2539" height="400" key="GridCell.Tab.0.left/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594341235394" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right" timestamp="1594341235395">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.right/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594315525020" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594341235395" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1594312035960">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -302,10 +310,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="782" y="343" key="SettingsEditor/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593688283445" />
-    <state x="873" y="433" key="Vcs.Push.Dialog.v2" timestamp="1594313479499">
+    <state x="873" y="433" key="Vcs.Push.Dialog.v2" timestamp="1594315664966">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="433" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594313479499" />
+    <state x="873" y="433" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594315664966" />
     <state x="1090" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594045595305">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
