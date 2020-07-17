@@ -197,6 +197,15 @@
       "complete_responses": ["Teď si teda nejsem jistá", "U tohoto upřímně netuším"],
       "template_responses": ["Tomu bych dala", "Tomuhle bych přidělila známku", "Tomu dávám", "Tomuto za tým Indiana uděluji známku", "Toto můžu ohodnotit", "Tohle můžu oznámkovat"],
       "question_responses": []
+    },
+    {
+      "name": "findReview",
+      "type": "custom",
+      "complete_response_probability": 1,
+      "triggers": ["recenze"],
+      "complete_responses": [],
+      "template_responses": [],
+      "question_responses": []
     }
   ]
 }
