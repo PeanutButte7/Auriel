@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2eb5c961-b5c1-4acb-8bdd-940a06047d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/commands/findReview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/commandConfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/findReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/findReview.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +96,8 @@
       <workItem from="1594291551700" duration="13803000" />
       <workItem from="1594390298399" duration="850000" />
       <workItem from="1594912096728" duration="936000" />
-      <workItem from="1595000268960" duration="9734000" />
+      <workItem from="1595000268960" duration="10380000" />
+      <workItem from="1595026213327" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="Added command system">
       <created>1593705676941</created>
@@ -199,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594912286756</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added findReview command and added ColorThief package">
+      <created>1595016577426</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1595016577426</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +238,8 @@
     <MESSAGE value="Updated node version, updated gitignore, added findPerson command" />
     <MESSAGE value="Updated cards color to reflect badges" />
     <MESSAGE value="Added .idea to gitignore and updated dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .idea to gitignore and updated dependencies" />
+    <MESSAGE value="Added findReview command and added ColorThief package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added findReview command and added ColorThief package" />
   </component>
   <component name="WindowStateProjectService">
     <state x="873" y="359" key="#ESLint" timestamp="1594308209162">
@@ -252,26 +258,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1018" y="503" key="#com.intellij.fileTypes.FileTypeChooser/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593709046623" />
-    <state x="905" y="295" key="CommitChangelistDialog2" timestamp="1594912285374">
+    <state x="905" y="295" key="CommitChangelistDialog2" timestamp="1595016576191">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="905" y="295" key="CommitChangelistDialog2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594912285374" />
-    <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1595016498930">
+    <state x="905" y="295" key="CommitChangelistDialog2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1595016576191" />
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1595026920008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.bottom/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1595016498930" />
-    <state width="2539" height="400" key="GridCell.Tab.0.center" timestamp="1595016498930">
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1595026920008" />
+    <state width="2539" height="400" key="GridCell.Tab.0.center" timestamp="1595026920008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.center/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1595016498930" />
-    <state width="2539" height="400" key="GridCell.Tab.0.left" timestamp="1595016498929">
+    <state width="2539" height="400" key="GridCell.Tab.0.center/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1595026920008" />
+    <state width="2539" height="400" key="GridCell.Tab.0.left" timestamp="1595026920008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.left/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1595016498929" />
-    <state width="2539" height="400" key="GridCell.Tab.0.right" timestamp="1595016498930">
+    <state width="2539" height="400" key="GridCell.Tab.0.left/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1595026920008" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right" timestamp="1595026920008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="400" key="GridCell.Tab.0.right/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1595016498930" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1595026920008" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1594312035960">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -324,10 +330,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="782" y="343" key="SettingsEditor/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1593688283445" />
-    <state x="873" y="433" key="Vcs.Push.Dialog.v2" timestamp="1594912295164">
+    <state x="873" y="433" key="Vcs.Push.Dialog.v2" timestamp="1595016579149">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="433" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1594912295164" />
+    <state x="873" y="433" key="Vcs.Push.Dialog.v2/3840.0.1920.1020/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1595016579149" />
     <state x="1090" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594045595305">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -40,6 +40,7 @@ module.exports = {
 				message.channel.send("Promiň ale tuhle hru jsem nenašla :/ Zkus zadat její jméno přesněji, můj interdimenzionální vyhledávač občas blbne");
 				return;
 			}
+			console.log(review)
 
 			let imageColor = "#fcfffa";
 			if (review.coverImg){
@@ -65,12 +66,15 @@ module.exports = {
 		function createEmbed(review, imageColor){
 			const exampleEmbed = new Discord.MessageEmbed()
 				.setColor(imageColor)
-				.setTitle(`${review.score}/10`)
+				.setTitle(`${review.score}/10 - ${review.verdict}`)
 				.setAuthor(review.game,"",review.link)
 				.setDescription(review.name)
-				.setThumbnail(review.coverImg)
-				//.setImage(review.coverImg)
-				.setFooter(`Recenzoval ${review.reviewer[0].displayname}`, review.reviewer[0].avatar);
+				.setImage(review.coverImg)
+				.addFields(
+					{ name: "Plusy", value: review.pluses, inline: true },
+					{ name: "Mínusy", value: review.minuses, inline: true },
+				)
+				.setFooter(`${review.reviewer[0].displayname} - Autor recenze`, review.reviewer[0].avatar);
 
 			message.channel.send(exampleEmbed);
 		}
