@@ -40,7 +40,6 @@ module.exports = {
 				message.channel.send("Promiň ale tuhle hru jsem nenašla :/ Zkus zadat její jméno přesněji, můj interdimenzionální vyhledávač občas blbne");
 				return;
 			}
-			console.log(review)
 
 			let imageColor = "#fcfffa";
 			if (review.coverImg){
@@ -48,7 +47,6 @@ module.exports = {
 				const imageColorPromise = colorThief.getColor(review.coverImg);
 				imageColorPromise.then(
 					result => {
-						console.log(result);
 						imageColor = result;
 					},
 					error => {
