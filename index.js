@@ -51,7 +51,7 @@ client.on("message", message => {
 
 function executeCommand(commandInfo, message) {
 	if (commandInfo.name == null) {
-		message.channel.send("Ty jseš taky nějakej chytrej ne? Jak mám asi vědět co tohle znamená? Jsem umělá inteligence.. ne génius")
+		message.channel.send("Promiň ale nevím co tohle znamená... holt jsem jenom umělá inteligence.. ne génius :/")
 	} // Returns if there is was no command found in the message
 	if (!client.commands.has(commandInfo.name)) return; // Returns if command name doesn't exist as a file under ./commands
 
@@ -76,8 +76,8 @@ function checkForCommand(message){
 		let triggersInMessage = 0;
 
 		// Checks message arguments against triggers
-		command.triggers.forEach(trigger => {
-			args.forEach(arg => {
+		args.forEach(arg => {
+			command.triggers.forEach(trigger => {
 				// Runs if trigger includes more word varieties
 				if (Array.isArray(trigger)){
 					// eslint-disable-next-line prefer-const
