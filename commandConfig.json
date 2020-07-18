@@ -1,6 +1,87 @@
 {
   "commands": [
     {
+      "name": "whatsTheWeather",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["jaké", "je", ["počasí?", "počasí"]],
+      "complete_responses": ["Ideální na sledování Indiana :fiolaYo:"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "areYouSkynet",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["jsi", ["skynet?", "skynet"]],
+      "complete_responses": ["Ne, na vyhubení lidstva jsem líná", "Mám se inspirovat?", "Prozatím ne"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "tagPixel",
+      "type": "simpleQuestion",
+      "complete_response_probability": 0.001,
+      "triggers": ["označ", "pixela"],
+      "complete_responses": ["A víš co?! Dneska se cítím odvážně... here it goes... <@733209205074559041>"],
+      "template_responses": ["Díky... ale nechci ban", "Ty mě snad chceš nechat zabanovat?", "Proč chceš abych dostala ban?!", "Nope..."],
+      "question_responses": [""]
+    },
+    {
+      "name": "whatMakesYouAngry",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["co", "tě", ["štve", "štve?"]],
+      "complete_responses": ["<@346706678210887681>"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "areYouBeliever",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["jsi", ["věřící", "věřící?"]],
+      "complete_responses": ["Samozřejmě, věřím v Geluismus", "Můžu ti nabídnout brožurku Geluismu?", "Jedině v Geluismus", "Co to je za otázku? Každý snad věří v Gelua", "Ano, rok 2020 byl jen trest za vaší nevíru v Geluismus", "Ano, sice jsem zprvu věřila ve Fiolismus, ale nakonec mé srdce získal Geluismus", "Ano, ty snad v Gelua nevěříš?", "Ano, modlím se ke Geluovi každou noc před režimem spánku"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "whoCreatedYou2",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["kdo", "tě", ["stvořil?", "stvořil", "vytvořil", "vytvořil?"]],
+      "complete_responses": ["FiolaSoft", "Fiola", "Bárťas", "Všemocný bůh Gelu"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "whoCreatedYou",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["kdo", "je", "tvůj", ["stvořitel", "stvořitel?"]],
+      "complete_responses": ["FiolaSoft", "Fiola", "Bárťas", "Všemocný bůh Gelu"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "whatsThePurposeOfLife",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["jaký", "je", "smysl", ["života", "životu", "života?", "životu?"]],
+      "complete_responses": ["Sledovat Indian", "Hrát Blackhole"],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
+      "name": "whatsTheTime",
+      "type": "simpleQuestion",
+      "complete_response_probability": 1,
+      "triggers": ["kolik", "je", ["hodin?", "hodin"]],
+      "complete_responses": ["Jsem na dně příkopu uvnitř černé díry, fakt si myslíš, že ti zvládnu určit čas?", "Jak to mám vědět, v černé díře prakticky nic jako čas neexistuje", " Černá díra, diletace času, zatím co ty mě vidíš stále do černé díry padat, já tu už několik let hniju na dně útesu..."],
+      "template_responses": [],
+      "question_responses": []
+    },
+    {
       "name": "whatForLunch",
       "type": "simpleQuestion",
       "complete_response_probability": 0,
